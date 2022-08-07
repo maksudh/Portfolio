@@ -122,6 +122,7 @@ ul {
 .quote-author {
     justify-content: center;
     align-items: flex-end;
+    font-weight: bolder;
 }
 
 .signupmsg {
@@ -142,4 +143,10 @@ ul {
     background-color: #1F2937;
     color: #f9faf8;
     padding: 32px;
+}
+
+.text {
+    width: 200px;
+    height: 200px;
+    text-align: center;
 }
