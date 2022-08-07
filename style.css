@@ -2,3 +2,144 @@ img {
     width: 200px;
     height: 200px;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .main-title {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-title {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 350px;
+    padding: 50px;
+    gap: 8px;
+}
+
+.title-text, .subtext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 500px;
+}
+
+.subtext, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.subtext{
+    text-align: left;
+    width: 500px;
+}
+
+.header-links {
+    align-items: center;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 90px;
+    height: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 50px;
+}
+
+.info {
+    width: 200px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+    gap: 8px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.signupmsg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 32px;
+}
