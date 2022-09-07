@@ -20,6 +20,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 15px;
 }
 
 .subtext, .header-links {
@@ -68,9 +69,7 @@ ul {
 
 .main-title {
     flex-direction: column;
-    flex-basis: 500px;
     text-align: left;
-    padding: px;
     gap: 8px;
 }
 
@@ -82,6 +81,8 @@ ul {
 
 .subtext{
     text-align: left;
+    padding-top: 15px;
+    gap: 8px;
 }
 
 .sign-up {
@@ -123,12 +124,16 @@ ul {
 
 /* Quote box */
 
-.quote {
+.project1, .project2 {
     display: flex;
     flex-direction: column;
     padding: 50px 200px;
     background-color: #E5E7EB;
     gap: 8px;
+}
+
+.project2 {
+    background-color: #f9faf8;
 }
 
 .quote-content {
@@ -169,4 +174,5 @@ ul {
     background-color: #1F2937;
     color: #f9faf8;
     padding: 32px;
+    padding-bottom: 50px;
 }
