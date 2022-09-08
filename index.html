@@ -10,61 +10,129 @@
 <body>
     <div class="header">
         <div class="logo">
-            Mak's Portfolio
+            Maksud's Portfolio
         </div>
         <div class="header-links">
             <ul>
-                <li>Skills</li>
-                <li>Projects</li>
+                <li><a href="#skillslink">Skills</a></li>
+                <li><a href="#projectslink">Projects</a></li>
                 <li>About Me</li>
-                <li>Contacts</li>
+                <li><a href="#contactlinks">Contacts</a></li>
             </ul>
         </div>
     </div>
     <div class="hero">
         <div class="main-title">
             <div class="title-text">Hello, I'm Maksud and this is my portfolio page!</div>
-            <div class="subtext"><b>I am a Computer Scientist in my final year with the goal of becoming Data Engineer</b>
+            <div class="subtext"><b>I am a Computer Scientist in my final year with the goal of becoming a Data Engineer</b>
                 <br><br> This page contains information about my skills, projects and a little bit about me.
                 <br>Please feel free to check out my contacts for my github, linked in and ways to contact me!
             </div>
         </div>
         <div></div>
     </div>
-    <div class="title">My projects</div>
+    <div id="projectslink" class="title">My projects</div>
     <div class="container">
         <div class="info">
-            <a href="#weatherappinfo"><img src="defaultweather.png" alt="Thumbnail image of my weather app"></a>
+            <a href="#weatherapplink"><img src="defaultweather.png" 
+                style="width:200px;height:200px" alt="Thumbnail image of my weather app"></a>
             <div class="text">Weather app with minmal dynamic GUI (University project)</div>
         </div>
         <div class="info">
-            <img src="fmd-250x250.png" alt="FDM logo">
+            <a href="#fdmlink"><img src="fmd-250x250.png" style="width:200px;height:200px" alt="FDM logo"></a>
             <div class="text">Login Portal for FDM (University project)</div>
         </div>
         <div class="info">
-            <img src="planning.jpg" alt="image of planning written out">
+            <img src="planning.jpg" style="width:200px;height:200px" alt="image of planning written out">
             <div class="text">More in the works!</div>
         </div>
     </div>
-    <div class="project1">
+    <div id="weatherapplink" class="project1">
+        <h1><a href="https://github.com/maksudh/weather-app">Weather App</a></h1>
         <div>
-            <h1><a id="'weatherappinfo" href="https://github.com/maksudh/weather-app">Weather App</a></h1>
             <p>This weather app was made by our GUI module team in University. The logic, code 
                 and layout of the app was created by me and one other memeber as we were the 
                 appointed JavaScript developers. 
             </p>
-            <img src="londonweather.png" alt="London weather app">
+        </div>
+        <div class="innerproject">
+            <ol>
+                <li>
+                    This is the UI of our weather app, it has a minimal yet informative GUI where the user
+                    can see all important weather information at a glance.  
+                </li>
+                <li>
+                    The app background changes dymaically depending on the current weather or conditions.
+                    For example: if its cloudly it will display coulds, if its clear it will dispay a clear blue sky.
+                </li>
+                <li>
+                    A hourly notification will also pop up at the top of the app, this will show a small 
+                    update on the current weather for the user to see, including the temperature, highs and
+                    lows, chance of rain and a breif description of the conditions.
+                </li>
+                <li>
+                    As you scroll down, more detailed information about the weather will be displayed. For example,
+                    chances of percipitaion, wind intensity etc. 
+                </li>
+                <li>
+                    Hourly weather predictions are also displayed with a ten day prediction also below including
+                    highs and lows thoughout the span of these days.
+                </li>
+            </ol>
+            <div class="barrier">
+                <img src="londonweather.png" style="width:200px;height:600px" alt="London weather app">
+            </div>
+            <div>
+                <img src="laweather.png" style="width:200px;height:600px" alt="la weather app">
+            </div>
         </div>
     </div>
-    <div class="project2">
+    <div id="fdmlink" class="project2">
+        <h1><a href="https://github.com/maksudh/">FDM Login Portal</a></h1>
         <div>
-            <h1>FDM Login Page</h1>
-            <p>The FDM login page was created in a group of two consiting of me and a student 
-                in my Software Engineering module. The front end JavaScript side was created by
-            me, while the backend was created by my partner. </p>
+            <p>The FDM login page was created in a group of two consisting of me and a student in my Software 
+                Engineering module to show how we could develop a full scale project utilising an aglie design process.
+                The front end JavaScript side was created by me, while the backend was created by my partner.
+            </p>
+        </div>
+        <div class="innerproject">
+            <ol>
+                <li>
+                    The FMD login was a proof of concept project we built to showcase out abilities in Software Engineering
+                    with a team.
+                </li>
+                <li>
+                    The portal contains a message page where you can send and recieve messages from others using the 
+                    portal. 
+                </li>
+                <li>
+                    In addition to this, there is a News forum where people using the portal can post relevant News
+                    or updates that they'd like to share with other users.
+                </li>
+                <li>
+                    There is an account and also directory page where you can view your details and also the 
+                    profiles of other users on the portal.
+                </li>
+                <li>
+                    The login process has verification on the backend to check if a user has admin privilages or not before
+                    entering to make sure the correct pages are displayed. 
+                </li>
+            </ol>
+            <div class="barrier">
+                <img src="fmdlogin1.png" style="width:250px;height:350px" alt="London weather app">
+            </div>
+            <div>
+                <img src="fdmlogin2.png" style="width:250px;height:350px" alt="la weather app">
+            </div>
         </div>
     </div>
-    <div class="footer">
+    <div id="skillslink" class="skills">
+        <h1>Skills</h1>
+        <div>
+
+        </div>
+    </div>
+    <div id="contactlinks" class="footer">
         <div>
             <h1>Contact info: </h1>
             <ul>
