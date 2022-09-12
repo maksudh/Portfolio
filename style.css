@@ -1,8 +1,25 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightblue;
 }
 
 /* Navbar */
@@ -15,6 +32,13 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 0;
+    display: flex;
+    position:fixed;
+    top:0px;
+    height:61px;
+    line-height:61px;
+    width:100%;
 }
 
 .subtext, .header-links {
@@ -54,6 +78,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 80px;
+    padding-top: 100px;
 }
 
 .heroimg {
@@ -122,7 +147,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 50px 200px 70px;
-    background-color: #E5E7EB;
+    background-color: #eff0f3;
     gap: 8px;
     font-size: large;
 }
@@ -144,7 +169,6 @@ ul {
 
 ol {
     list-style: disc;
-    padding: 20px;
     margin: 0;
 }
 
